@@ -1,0 +1,106 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #fbc02d;
+$secondary: #26a69a;
+$accent: #999999;
+
+$dark: #1d1d1d;
+$dark-page: #121212;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+
+:root {
+  --primary: #fbc02d; /* Valor inicial que pode ser substituído */
+}
+
+.header-bg {
+  background-color: var(--primary);
+}
+
+.header-buttons:hover {
+  color: var(--primary);
+}
+
+.q-carousel__control {
+  color: var(--primary) !important;
+}
+
+.q-carousel__arrow {
+  color: var(--primary) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .underline-notice {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 54%;
+    height: 4px;
+    content: "";
+  }
+  .underline-video {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 50%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+  .underline-galery {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 24.5%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+  .underline-aval {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 34%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .underline-notice {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 15%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+  .underline-video {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 14%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+  .underline-galery {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 6%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+  .underline-aval {
+    background: linear-gradient(to right, var(--primary) 50%, $accent 50%);
+    width: 8.5%;
+    height: 4px;
+    left: 0;
+    content: "";
+  }
+}
