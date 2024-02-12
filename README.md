@@ -4,7 +4,7 @@ npm install
 ```
 ## Rodar servidor do quasar
 ```bash
-quasar dev
+npx quasar dev
 ```
 
 ## Galeria - Pode adicionar uma foto de exemplo fazendo o upload
