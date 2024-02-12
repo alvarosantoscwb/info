@@ -1,41 +1,20 @@
-# Quasar App (teste)
-
-A Quasar Project
-
-## Install the dependencies
+## Instalação
 ```bash
-yarn
-# or
 npm install
 ```
-
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+## Rodar servidor do quasar
 ```bash
 quasar dev
 ```
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+## Galeria - Pode adicionar uma foto de exemplo fazendo o upload
+![image](https://github.com/alvarosantoscwb/info/assets/78945827/047c6745-9569-48a4-9dbe-d28b84fd8c74)
 
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+## Exemplo de painel - pode trocar a cor a logo e trocar a imagem que fica na galeria
+![image](https://github.com/alvarosantoscwb/info/assets/78945827/f5e14a7e-8589-4765-87e2-75b7ed04e0f3)
 
 
+## Descrição
 
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+O projeto tem o intuito de demonstrar que é possível colocar imagens e cores primarias no projeto onde caso tenha um painel esses dados podem ser salvos ou removidos
